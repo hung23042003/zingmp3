@@ -1,0 +1,32 @@
+@media (max-width: 1050px) {
+    html {
+        font-size: 55%;
+    }
+    .main {
+        padding: 2rem 5rem;
+    }
+
+    .song {
+        width: 35rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .song {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .header {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}

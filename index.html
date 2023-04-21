@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" href="https://vikdang.github.io/Code_web_music_player/assets/img/logos/small-logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>ZingMp3</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="main-bg">
+            <!-- filter -->
+            <div class="main-bg-filter"></div>
+            <div class="main">
+                <div class="theme-icon">
+                    <i class="fa-solid fa-paint-roller"></i>
+                </div>
+                <div class="header">
+                    <div class="header-song">
+                        <span>Now playing :</span>
+                        <div class="header-name-song"></div>
+                        <div class="header-name-singer"></div>
+                    </div>
+                    <div class="header-image">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <!-- track -->
+                <div class="track">
+                    <input type="range" name="" class="progess" value="0" min="0" step="1" max="100"  >
+                    <div class="loader"></div>
+                </div>
+                <!-- audio -->
+                <audio src="" id="audio"></audio>
+                <!-- timer -->
+                <div class="time">
+                    <div class="curTime">00:00</div>
+                    <div class="sumTime">00:00</div>
+                </div>
+                <!-- control -->
+                <div class="control">
+                    <div class="nomal-control">
+                        <div class="prev">
+                            <i class="fa-solid fa-backward-step"></i>
+                        </div>
+                        <div class="play">
+                            <i class="fa-solid fa-play btn-play "></i>
+                            <!-- <i class="fa-solid fa-pause btn-pause"></i> -->
+                        </div>
+                        <div class="next">
+                            <i class="fa-solid fa-forward-step"></i>
+                        </div>
+                    </div>
+                    <div class="andvan-control">
+                        <i class="fa-solid fa-repeat btn repeat"></i>
+                        <i class="fa-solid fa-shuffle btn shuffle"></i>
+                    </div>
+                </div>
+                <!-- playList -->
+                <div class="playlist">
+                    <!-- <div class="song">
+                        <div class="song-image">
+                            <img src="https://i.ytimg.com/vi/GatNL0mmQGc/maxresdefault.jpg" alt="">
+                        </div>
+                        <div class="song-descr">
+                            <div class="song-descr-name">3107 Full version</div>
+                            <div class="song-descr-singer">W/n x DuongG, Nâu , Titie, Erik</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
